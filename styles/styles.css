@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body{
+	padding: 20px;
+	font-family: sans-serif;
+	background-image: url("../images/beans.jpg");
+}
+
+/*Est. 2020*/
+.established{
+	font-style: italic;
+}
+
+/*ALINEACIÓN DE LOS TEXTOS*/
+h1, h2, p{
+	text-align: center;
+}
+
+/*Imágenes de la taza de café y el pastel (dessert) */
+img{
+	display: block;
+	margin: -25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Esta es la propiedad que tiene todo el contenido, es un contenedor.*/
+.menu{
+	background-color: burlywood;
+	width: 80%;
+	max-width: 500px;/*Propiedad que define el ancho máximo de la clase "menu"*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;/* "Relleno" en top, bottom, left y right*/
+}
+
+.flavor, .dessert{
+	width: 75%;
+	text-align: left;
+}
+
+.price{
+	width: 25%;
+	text-align: right
+}
+
+.item p{
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+/*FUENTES PARA H1 Y H2*/
+h1, h2{
+	font-family: Impact, serif;/*Fuente para los títulos y subtítulos, "Fallback fuente es serif"*/
+}
+
+h1{
+	
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+h2{
+	font-size: 30px;
+}
+
+/*Línea o separador*/
+hr{
+	background: brown;
+	border-color: brown;
+	height: 2px;
+}
+
+.bottom-line{
+	margin-top: 25px;
+}
+
+/*---F  O  O  T  E  R---*/
+
+footer{
+	font-size: 14px;
+}
+
+/* Color del enlace "Visit our website"*/
+
+a{
+	color: black;/*Color normal del enlace*/
+}
+a:visited{
+	color: black;/*Cuándo el enlace ha sido visitado */
+}
+a:hover{
+	color: brown;/* Cuándo el mouse está encima del enlace */
+}
+a:active{
+	color: brown;/*Al hacer clic sobre el enlace */
+}
+
+/* Modificación a la dirección*/
+.address{
+	margin-bottom: 5px;
+}
